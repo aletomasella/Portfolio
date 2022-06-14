@@ -47,7 +47,7 @@ const Navbar = () => {
         {/* social icon */}
         <div className="hidden lg:flex fixed flex-col top-[35%] left-2">
           <ul>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-115px] hover:ml-[-10px] duration-300 bg-blue-600">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://www.linkedin.com/in/aletomasella/"
@@ -57,7 +57,7 @@ const Navbar = () => {
                 LinkedIn <FaLinkedin size={30} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-115px] hover:ml-[-10px] duration-300 bg-gray-900">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://github.com/aletomasella"
@@ -67,7 +67,7 @@ const Navbar = () => {
                 Github <FaGithub size={30} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-115px] hover:ml-[-10px] duration-300 bg-red-600">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="mailto:aletomasella09@gmail.com"
@@ -77,7 +77,7 @@ const Navbar = () => {
                 Email <HiOutlineMail size={30} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-115px] hover:ml-[-10px] duration-300 bg-gray-600">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://drive.google.com/file/d/1M4FSaJtsH63E4qI_o7Nu8n4cboDx5SZU/view?usp=sharing"
