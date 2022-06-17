@@ -20,10 +20,10 @@ const About = () => {
             </div>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                perferendis maxime quia libero neque debitis quaerat sunt quos
-                obcaecati, ullam eaque rerum aliquid velit nobis incidunt
-                numquam consectetur tenetur laboriosam.
+                Developer Full Stack and Veterinarian. I worked as a veterinary
+                in a private business dedicated to Animal Production, but I
+                always liked technology, and since I started learning
+                programming I discovered a new vocation for myself.
               </p>
             </div>
           </div>
