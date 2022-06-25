@@ -2,6 +2,7 @@ import React from "react";
 import LandingBragi from "../assets/LandingBragi.png";
 import LandingVideogamesAPP from "../assets/LandingVideogamesAPP.png";
 import WordleApp from "../assets/WordleApp.png";
+import ShoppingCart from "../assets/ShoppingCart.png";
 
 const Work = () => {
   return (
@@ -19,7 +20,40 @@ const Work = () => {
             <p className="p-6">// Check out some of my recent work</p>
           </div>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+            <div
+              style={{ backgroundImage: `url(${ShoppingCart})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              {/* hover-effect  */}
+
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  Shopping Cart
+                </span>
+                <div className="pt-8 text-center">
+                  <a
+                    href="https://shopping-cart-at.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+
+                  <a
+                    href="https://github.com/aletomasella/Shopping-Cart"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div
               style={{ backgroundImage: `url(${WordleApp})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
