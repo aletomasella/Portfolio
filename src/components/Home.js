@@ -20,14 +20,14 @@ const Home = () => {
             improve my potential.
           </p>
           <div>
-            <button className="text-white group border-2 px-6 py-3 flex items-center rounded hover:bg-orange-500">
-              <Link to="work" smooth={true} duration={500}>
+            <Link to="work" smooth={true} duration={500}>
+              <button className="text-white group border-2 px-6 py-3 flex items-center rounded hover:bg-orange-500">
                 View Work
-              </Link>
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
-              </span>
-            </button>
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3" />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
