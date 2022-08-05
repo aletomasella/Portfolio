@@ -1,4 +1,5 @@
 import React from "react";
+import Social from "./Social";
 
 const Contact = () => {
   return (
@@ -44,6 +45,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Social />
     </>
   );
 };
