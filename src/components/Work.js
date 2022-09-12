@@ -11,10 +11,7 @@ import alegraChallange from "../assets/AlegraChallange.png";
 const Work = () => {
   return (
     <>
-      <div
-        name="work"
-        className="w-full bg-[#0a192f] md:h-screen text-gray-300"
-      >
+      <div name="work" className="w-full bg-[#0a192f] text-gray-300 sm:h-fit">
         {/* container  */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className="p-8">
