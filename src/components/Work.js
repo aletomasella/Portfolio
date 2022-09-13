@@ -6,7 +6,8 @@ import ShoppingCart from "../assets/ShoppingCart.png";
 import twitchClone from "../assets/twitchClone.png";
 import weatherApp from "../assets/weatherApp.png";
 import chatApp from "../assets/ChatApp.png";
-import alegraChallange from "../assets/AlegraChallange.png";
+import blogApp from "../assets/BlogApp.png";
+import ihuajoApp from "../assets/Ihuajo-app.png";
 
 const Work = () => {
   return (
@@ -25,6 +26,39 @@ const Work = () => {
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div
+              style={{ backgroundImage: `url(${ihuajoApp})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              {/* hover-effect  */}
+
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  Ihuajo App
+                </span>
+                <div className="pt-8 text-center">
+                  <a
+                    href="https://ihuajo-srl.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+
+                  <a
+                    href="https://github.com/aletomasella/ihuajo-app-v2"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div
               style={{ backgroundImage: `url(${chatApp})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -59,18 +93,18 @@ const Work = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${alegraChallange})` }}
+              style={{ backgroundImage: `url(${blogApp})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               {/* hover-effect  */}
 
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
-                  Alegra Challenge
+                  Blog App
                 </span>
                 <div className="pt-8 text-center">
                   <a
-                    href="https://alegra-challenge-aletomasella.vercel.app/"
+                    href="https://blog-app-at.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -79,15 +113,15 @@ const Work = () => {
                     </button>
                   </a>
 
-                  {/* <a
-                    href="https://github.com/aletomasella/Weather-App"
+                  <a
+                    href="https://github.com/aletomasella/blog-app"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>

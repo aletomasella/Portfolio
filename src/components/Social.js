@@ -41,7 +41,7 @@ const Social = () => {
           <li className="w-[70px] h-[60px] flex justify-between items-center ml-[1px] bg-gray-600">
             <a
               className="flex justify-between items-center text-gray-300"
-              href="https://drive.google.com/file/d/19dG6v-JKfZmk0NvbZsgyO_fxjDmY8RWB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1p7T8ie_3sadRiSTDEvy0Lcktag21YQpv/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
